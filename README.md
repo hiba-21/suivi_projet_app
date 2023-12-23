@@ -3,3 +3,10 @@ la génération automatique et l'envoi de rapports de projet quotidiens aux Scru
 Managers. Ce système permettra aux développeurs de soumettre leurs mises à jour de projet, y 
 compris le nom du projet et l'état des tâches, et compilera automatiquement ces informations dans 
 un rapport quotidien par e-mail
+
+
+Stack Technique:
+  Frontend: React.js
+  Backend: Node.js
+  Base de données : MongoDB
+  Service E-mail : SMTP (Simple Mail Transfer Protocol)
