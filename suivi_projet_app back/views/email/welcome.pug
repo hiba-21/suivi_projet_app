@@ -1,0 +1,13 @@
+extends baseEmail 
+block content     
+        p Hi ,
+        each projet in projets
+            h5=projet.name
+            each task in projet.tasks 
+            
+                h6=`${task.name} :`
+                
+                    p=task.status
+                                      
+        p Cordialement 
+        p Hiba Rassas, CEO.

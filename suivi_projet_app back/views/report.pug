@@ -1,0 +1,22 @@
+extends base
+
+block content
+    table
+        la 
+            tr
+                th ID
+                th Projet (s)
+                th Task (s)
+                th Date
+        tbody
+            each projet in projets
+                tr
+                    th=projet._id
+                    th=projet.name
+                    th
+                        each task in projet.tasks 
+                            h4=task.name
+                            
+                            
+                    th=projet.date
+            
